@@ -1,0 +1,48 @@
+&lt;%@ page language="java" 
+         contentType="text/html; charset=UTF-8" 
+         pageEncoding="UTF-8"%&gt;
+&lt;% request.setCharacterEncoding("UTF-8"); %&gt;
+
+
+<title>구구단 출력</title>
+<style>
+    div {
+        text-align: center;
+    }
+    td {
+        background-color: #289AFF;
+        color: #FFFFFF;
+        padding: 10px;
+    }
+    h3 {
+        color: #289AFF;
+    }
+</style>
+
+
+    <div>
+        <h3>구구단을 외우자!</h3>
+        
+        &lt;%
+        for(int i = 1; i &lt; 10; i++) {
+        %&gt;
+            
+            &lt;%
+            for(int j = 2; j &lt; 10; j++) {
+            %&gt;
+                
+            &lt;%
+            }
+            %&gt;
+            
+        &lt;%
+        }
+        %&gt;
+        <table><tbody><tr><td>
+                    &lt;%=Integer.toString(j) 
+                        + " X " + Integer.toString(i) 
+                        + " = " + Integer.toString(j * i) 
+                    %&gt;
+                </td></tr></tbody></table>
+    </div>
+

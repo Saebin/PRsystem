@@ -1,0 +1,20 @@
+#include <turboc.h>
+ 
+void main()
+{
+     int i,j;
+ 
+     for (i=2;i&lt;=5;i++) {
+          for (j=1;j&lt;=9;j++) {
+              gotoxy(i*15-25,j+2);
+              printf("%d * %d = %d",i,j,i*j);
+          }
+     }
+ 
+     for (i=6;i&lt;=9;i++) {
+          for (j=1;j&lt;=9;j++) {
+              gotoxy((i-4)*15-25,j+12);
+              printf("%d * %d = %d",i,j,i*j);
+          }
+     }
+}</turboc.h>

@@ -1,0 +1,11 @@
+int main(void)
+{
+ int i, j;
+ 
+ for(i=2;i&lt;=9;i++){
+  for(j=1;j&lt;=9;j++)
+   printf("%d*%d=%2d  ", i, j, i*j);
+  printf("\n");
+ }
+ return 0;
+}

@@ -1,0 +1,40 @@
+int main()
+
+{
+
+    int curGuGu=2,maxGuGu=9,maxCols=4,maxRows=9,curRow,i;
+
+ 
+
+    for (curGuGu; curGuGu&lt;=maxGuGu; curGuGu+=maxCols)
+
+    {
+
+        for (curRow = 1; curRow &lt;= maxRows; curRow++)
+
+        {
+
+            for (i = curGuGu; i &lt; curGuGu+maxCols; i++)
+
+            {
+
+                if (i&gt;maxGuGu)
+
+                    break;
+
+                printf("%d x %d = %d\t",i,curRow,i*curRow);
+
+            }
+
+            printf("\n");
+
+        }
+
+        printf("\n");
+
+    }
+
+    getchar();
+
+    return 0;
+}

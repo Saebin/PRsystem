@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void)
+{
+   int nDan = 0 ; 
+   int nSoo = 0 ;
+   int nResult = 0;
+
+   for(nDan = 2 ; nDan &lt;= 9 ; nDan++)
+   {
+      for(nSoo = 1 ; nSoo &lt;= 9 ; nSoo ++)
+      {
+        nResult = nDan * nSoo;
+        printf("%d * %d  = %d \n",nDan,nSoo,nResult );
+       }
+   } 
+  return 0;
+}
+</stdio.h>

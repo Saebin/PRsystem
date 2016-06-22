@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main() {
+        int i, j;
+
+        for( i = 2, j = 1; i &lt;= 8; i+=2 ) {
+                printf("%d * %d = %2d", i, j, i * j);
+
+                if( i == 8) {
+                        i = 0;
+                        j++;
+                        printf("\n");
+                } else {
+                        printf("   ");
+                }
+
+                if( j &gt; 9 ) {
+                        break;
+                }
+        }
+
+        printf("\n");
+        for( i = 3, j = 1; i &lt;= 9; i+=2 ) {
+                printf("%d * %d = %2d", i, j, i * j);
+
+                if( i == 9 ) {
+                        i = 1;
+                        j++;
+                        printf("\n");
+                } else {
+                        printf("   ");
+                }
+
+                if( j &gt; 9 ) {
+                        break;
+                }
+        }
+
+        return 0;
+}</stdio.h>

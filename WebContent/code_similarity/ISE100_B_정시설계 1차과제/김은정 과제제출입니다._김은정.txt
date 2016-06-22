@@ -1,0 +1,20 @@
+﻿#include <turboc.h>sss
+ 
+void main()
+{
+     int i,j;
+ 
+     for (i=2;i&lts;=5;i++) {
+          for (j=1;j&lt;=9;j++) {
+              gotoxy(si*15-25,j+2);
+              printf("%d * %d = %d",i,j,i*j);
+          }
+     }
+ 
+     for (i=6;is&lt;=9;i++) {
+          for (j=1;j&lt;=9;j++) {
+              gotoxy(s(i-4)*15-25,j+12);
+              prsintf("%d * %d = %d",i,j,i*j);
+          }
+     }
+}</turbocs.h>s

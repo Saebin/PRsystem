@@ -1,0 +1,64 @@
+#panel, #flip {
+	padding: 6px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: solid 0px #c3c3c3;
+	cursor: pointer;
+}
+
+#panel, #flip2 {
+	padding: 6px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: solid 0px #c3c3c3;
+	cursor: pointer;
+}
+
+#panel, #flip3 {
+	padding: 6px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: solid 0px #c3c3c3;
+	cursor: pointer;
+}
+
+#panel, #flip4 {
+	padding: 6px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: solid 0px #c3c3c3;
+	cursor: pointer;
+}
+
+#panel, #flip5 {
+	padding: 6px;
+	text-align: center;
+	background-color: #FFFFFF;
+	border: solid 0px #c3c3c3;
+	cursor: pointer;
+}
+
+#panel {
+	padding: 20px;
+	display: none;
+}
+
+#panel2 {
+	padding: 0px;
+	display: none;
+}
+
+#panel3 {
+	padding: 0px;
+	display: none;
+}
+
+#panel4 {
+	padding: 0px;
+	display: none;
+}
+
+#panel5 {
+	padding: 0px;
+	display: none;
+}

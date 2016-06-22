@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+.fixed-menu{
+	width: 100%;
+	height:50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	border:1px solid;
+	border-color: #999999;
+	background-color: #cccccc;
+	z-index: 3;
+}
+.container{
+	width:940px;
+	margin:0 auto;
+	padding: 20px;
+	margin-top: 70px;
+}
+.select{
+	padding: 20px;
+	border:1px solid;
+	border-color: #999999;
+	margin: 1px;
+}
+.manager{
+	width: 425px;
+	height: 601px;
+	padding: 20px;
+	margin: 1px;
+	float: left;
+	border:1px solid;
+	border-color: #999999;
+}
+.info1{
+	width: 425px;
+	height: 279px;
+	padding: 20px;
+	margin: 1px;
+	float: right;
+	border:1px solid;
+	border-color: #999999;
+}
+.info2{
+	width: 425px;
+	height: 279px;
+	padding: 20px;
+	margin: 1px;
+	float: right;
+	border:1px solid;
+	border-color: #999999;
+}
+.student{
+	width:898px;
+	float: right;
+	padding: 20px;
+	margin: 1px;
+	margin-bottom:50px;
+	border:1px solid;
+	border-color: #999999;
+}
+.sub {
+	float: right;
+	padding-right: 30px;
+}
+.st{
+	width: 898px;
+	float: right;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+
+h4{
+	padding-left: 20px;
+	font: 400 0.875rem/1.5 "Open Sans", sans-serif;
+}
+h1{
+	text-align: center;
+	font: 500 1.2rem/1.5 "Open Sans", sans-serif;
+}
